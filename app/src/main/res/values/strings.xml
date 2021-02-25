@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChatFireBase</string>
+    <string name="message">Message</string>
+    <string name="total_price_is">Total Price is : </string>
+    <string name="orders_accepted">Orders Accepted</string>
+    <string name="refused_orders">Refused Orders</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="old_orders">Old Orders</string>
+    <string name="refused">Refused</string>
+    <string name="accepted">Accepted</string>
+    <string name="change_date">Change date</string>
+
+</resources>

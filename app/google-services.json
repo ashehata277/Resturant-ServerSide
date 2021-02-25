@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "860183409788",
+    "project_id": "chatroom-b54ff",
+    "storage_bucket": "chatroom-b54ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860183409788:android:b8a46d246232780ff4c5f9",
+        "android_client_info": {
+          "package_name": "com.example.chatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860183409788-9f00rbu1gd036v7p6l8ta4skv85d2is4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatfirebase",
+            "certificate_hash": "cffba599240f5f38678bb664e810245d28719841"
+          }
+        },
+        {
+          "client_id": "860183409788-0jjepmem4qbj9iahal3psfi1bulbl3o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmNNCQWmuLC62dyIGSy9VYitWEj4r2to4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860183409788-0jjepmem4qbj9iahal3psfi1bulbl3o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

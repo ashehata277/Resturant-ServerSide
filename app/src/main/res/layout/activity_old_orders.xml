@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".OldOrders">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changedate">
+
+        <TextView
+            android:id="@+id/OrdersAccepted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonback"
+            android:gravity="center"
+            android:text="@string/accepted"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/OrdersRefused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonback"
+            android:gravity="center"
+            android:text="@string/refused"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dynamic"
+        android:layout_width="310dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/changedate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="243dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="101dp"
+        android:background="@drawable/ordersback"
+        android:gravity="center"
+        android:text="@string/old_orders"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/dynamic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/changedate"
+        android:layout_width="177dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="114dp"
+        android:gravity="center"
+        android:text="@string/change_date"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dynamic" />
+</androidx.constraintlayout.widget.ConstraintLayout>

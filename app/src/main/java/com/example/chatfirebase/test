@@ -1,0 +1,84 @@
+ /*reference= FirebaseDatabase.getInstance().getReference().child("Orders");
+        reference.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+               Iterator i = snapshot.getChildren().iterator();
+                while(i.hasNext())
+                {
+                    Log.e("", String.valueOf(((DataSnapshot)i.next()).getValue()));
+                    Log.e("", String.valueOf(((DataSnapshot)i.next()).getValue()));
+                    for (int j= 0;j<((DataSnapshot) i.next()).getChildrenCount();j++)
+                    {
+
+                    }
+                    Log.e("", String.valueOf());
+                    Log.e("", String.valueOf(((DataSnapshot)i.next()).getValue()));
+                    Log.e("", String.valueOf(((DataSnapshot)i.next()).getValue()));
+                }
+                OrderItem orderItem =new OrderItem();
+                for (DataSnapshot childDataSnapshot : snapshot.getChildren()) {
+
+                    Log.e("",childDataSnapshot.getKey());
+                    Log.e("",(String) childDataSnapshot.child("phone").getValue());
+                    Log.e("", String.valueOf((Long) childDataSnapshot.child("Total Price").getValue()));
+                    Log.e("",(String) childDataSnapshot.child("OrderDate").getValue());
+                    for(DataSnapshot childChild : childDataSnapshot.child("The order").getChildren())
+                    {
+                        // Order.add(0,new MenuItem((String) childChild.child("name").getValue(),(String) childChild.child("note").getValue(),(Long) childChild.child("number").getValue()));
+                        Log.e("",(String) childChild.child("name").getValue());
+                        Log.e("",(String) childChild.child("note").getValue());
+                        Log.e("", String.valueOf((Long) childChild.child("number").getValue()));
+
+                    }
+                    //orderItem.setCode(childDataSnapshot.getKey());
+                    //orderItem.setDate((String) childDataSnapshot.child("OrderDate").getValue());
+                    //orderItem.setPhone((String) childDataSnapshot.child("phone").getValue());
+                    //orderItem.setPrice((Long) childDataSnapshot.child("Total Price").getValue());
+                   // orderItem.setState(String.valueOf((Boolean) childDataSnapshot.child("Accepted").getValue()));
+                   // orderItem.setOrder(Order);
+                    //infoOrders.add(0,orderItem);
+                   // Order.clear();
+                }
+                adapter =  new Adapter(infoOrders);
+                OrderList.setAdapter(adapter);
+                adapter.notifyDataSetChanged();
+                waiting.dismiss();
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });*/
+
+
+
+
+         int s =content.size();
+                    int s2;
+                    for (int i=0;i<s;i++)
+                    {
+                        Log.i("", content.get(i).getCode());
+                        Log.i("", content.get(i).getDate());
+                        Log.i("", content.get(i).getPhone());
+                        s2=content.get(i).getOrder().size();
+                        for (int j=0;j<s2;j++)
+                        {
+                            Log.i("", content.get(i).getOrder().get(j).getName());
+                        }
+                    }
