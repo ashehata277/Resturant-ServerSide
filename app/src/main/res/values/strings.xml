@@ -10,5 +10,6 @@
     <string name="refused">Refused</string>
     <string name="accepted">Accepted</string>
     <string name="change_date">Change date</string>
+    <string name="title_activity_location">Map</string>
 
 </resources>

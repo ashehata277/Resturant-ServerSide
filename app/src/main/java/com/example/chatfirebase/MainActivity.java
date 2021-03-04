@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity
                             (Long) childDataSnapshot.child("Total Price").getValue(),
                             (String) childDataSnapshot.child("phone").getValue(),
                             String.valueOf( childDataSnapshot.child("Accepted").getValue()),
+                            (double) childDataSnapshot.child("Location").child("latitude").getValue(),
+                            (double) childDataSnapshot.child("Location").child("longitude").getValue(),
                             Order));
                     Order.clear();
                 }
@@ -136,6 +138,8 @@ public class MainActivity extends AppCompatActivity
                             (Long) childDataSnapshot.child("Total Price").getValue(),
                             (String) childDataSnapshot.child("phone").getValue(),
                             String.valueOf(childDataSnapshot.child("Accepted").getValue()),
+                            (double) childDataSnapshot.child("Location").child("latitude").getValue(),
+                            (double) childDataSnapshot.child("Location").child("longitude").getValue(),
                             Order));
                     Order.clear();
                 }
@@ -203,6 +207,7 @@ public class MainActivity extends AppCompatActivity
             TextView Date = (TextView) view.findViewById(R.id.Date);
             TextView Price =(TextView)view.findViewById(R.id.Price);
             TextView Order = (TextView) view.findViewById(R.id.Order);
+            TextView Location = (TextView) view.findViewById(R.id.location);
             Code.setText(content.get(position).getCode());
             Phone.setText(content.get(position).getPhone());
             Date.setText(content.get(position).getDate());
@@ -268,6 +273,15 @@ public class MainActivity extends AppCompatActivity
                         }
                     });
 
+                }
+            });
+            Location.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent Location =  new Intent (MainActivity.this,Location.class);
+                    Location.putExtra("Lat",content.get(position).getLat());
+                    Location.putExtra("Log",content.get(position).getLog());
+                    startActivity(Location);
                 }
             });
             return view;

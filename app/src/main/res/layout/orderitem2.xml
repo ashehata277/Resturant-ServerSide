@@ -5,11 +5,10 @@
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ordersback"
-    android:orientation="vertical"
-    android:layout_alignParentEnd="true"
     android:layout_alignParentLeft="true"
-    >
+    android:layout_alignParentEnd="true"
+    android:background="@drawable/ordersback"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/OrderCode"
@@ -30,8 +29,8 @@
         android:layout_width="119dp"
         android:layout_height="32dp"
         android:layout_marginTop="29dp"
-        android:layout_marginEnd="2dp"
-        android:gravity="center"
+        android:layout_marginEnd="15dp"
+        android:gravity="start|center_vertical"
         android:text="TextView"
         android:textColor="#B6CAB5"
         app:layout_constraintBottom_toTopOf="@+id/Date"
@@ -56,6 +55,7 @@
         android:id="@+id/Date"
         android:layout_width="192dp"
         android:layout_height="29dp"
+        android:layout_marginEnd="15dp"
         android:gravity="center"
         android:text="TextView"
         android:textColor="#B6CAB5"
@@ -69,6 +69,7 @@
         android:layout_width="392dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
         android:gravity="center"
         android:text="TextView"
         android:textColor="#B6CAB5"
@@ -82,12 +83,28 @@
         android:layout_width="391dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginEnd="15dp"
         android:gravity="center"
         android:text="@string/total_price_is"
         android:textColor="#BF21B7"
+        app:layout_constraintBottom_toTopOf="@+id/locationorder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Order" />
+
+    <TextView
+        android:id="@+id/locationorder"
+        android:layout_width="391dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="Show Order Location"
+        android:textColor="#8A115D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Price" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,14 +14,18 @@ public class OrderItem
     private String Phone;
     private String State;
     private ArrayList<MenuItem> Order = new ArrayList<MenuItem>();
+    private double Lat;
+    private double log;
    // private StringBuilder Order;
 
-    public OrderItem(String code, String date, Long price, String phone, String State,ArrayList<MenuItem> order) {
+    public OrderItem(String code, String date, Long price, String phone, String State,double latt,double logg,ArrayList<MenuItem> order) {
         Code = code;
         Date = date;
         Price = price;
         Phone = phone;
         this.State=State;
+        Lat=latt;
+        log=logg;
         for (int i= 0;i<order.size();i++)
         {
             Order.add(order.get(i));
@@ -53,7 +57,16 @@ public class OrderItem
         return State;
     }
 
+
     public void setState(String state) {
         State = state;
+    }
+
+    public double getLat() {
+        return Lat;
+    }
+
+    public double getLog() {
+        return log;
     }
 }

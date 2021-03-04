@@ -5,11 +5,10 @@
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ordersback"
-    android:orientation="vertical"
-    android:layout_alignParentEnd="true"
     android:layout_alignParentLeft="true"
-    >
+    android:layout_alignParentEnd="true"
+    android:background="@drawable/ordersback"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/OrderCode"
@@ -88,21 +87,37 @@
         android:gravity="center"
         android:text="@string/total_price_is"
         android:textColor="#BF21B7"
+        app:layout_constraintBottom_toTopOf="@+id/location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Order" />
 
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="Show Order Location"
+        android:textColor="#1C3973"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Price" />
+
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="394dp"
         android:layout_height="27dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Price">
+        app:layout_constraintTop_toBottomOf="@+id/location">
 
         <ImageView
             android:id="@+id/refuse"

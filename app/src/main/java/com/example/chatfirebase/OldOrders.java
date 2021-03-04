@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,7 +32,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-public class OldOrders extends AppCompatActivity {
+public class OldOrders extends AppCompatActivity
+{
     private DatabaseReference reference;
     private volatile ArrayList<OrderItem> infoOrders= new ArrayList<>();
     private ArrayList<MenuItem> Order = new ArrayList<>();
@@ -94,6 +96,8 @@ public class OldOrders extends AppCompatActivity {
                             (Long) childDataSnapshot.child("Total Price").getValue(),
                             (String) childDataSnapshot.child("phone").getValue(),
                             String.valueOf( childDataSnapshot.child("Accepted").getValue()),
+                            (double) childDataSnapshot.child("Location").child("latitude").getValue(),
+                            (double) childDataSnapshot.child("Location").child("longitude").getValue(),
                             Order));
                     Order.clear();
                 }
@@ -177,6 +181,7 @@ public class OldOrders extends AppCompatActivity {
             TextView Date = (TextView) view.findViewById(R.id.Date);
             TextView Price =(TextView)view.findViewById(R.id.Price);
             TextView Order = (TextView) view.findViewById(R.id.Order);
+            TextView location =(TextView) view.findViewById(R.id.locationorder);
             Code.setText(content.get(position).getCode());
             Phone.setText(content.get(position).getPhone());
             Date.setText(content.get(position).getDate());
@@ -188,7 +193,16 @@ public class OldOrders extends AppCompatActivity {
             {
                 Order.append(content.get(position).getOrder().get(i).getName() +":"+content.get(position).getOrder().get(i).getNote()+":"+content.get(position).getOrder().get(i).getNo()+"\n");
             }
+            location.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent Location =  new Intent (OldOrders.this,Location.class);
+                    Location.putExtra("Lat",content.get(position).getLat());
+                    Location.putExtra("Log",content.get(position).getLog());
+                    startActivity(Location);
+                }
+            });
             return view;
         }
     }
-    }
+}
