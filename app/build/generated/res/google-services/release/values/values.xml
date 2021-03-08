@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">860183409788-0jjepmem4qbj9iahal3psfi1bulbl3o4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">860183409788</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmNNCQWmuLC62dyIGSy9VYitWEj4r2to4</string>
+    <string name="google_app_id" translatable="false">1:860183409788:android:b8a46d246232780ff4c5f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmNNCQWmuLC62dyIGSy9VYitWEj4r2to4</string>
+    <string name="google_storage_bucket" translatable="false">chatroom-b54ff.appspot.com</string>
+    <string name="project_id" translatable="false">chatroom-b54ff</string>
+</resources>

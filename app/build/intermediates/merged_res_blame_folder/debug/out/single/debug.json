@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_location.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_location.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_datepicker.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/datepicker.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ic_baseline_refresh_24.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_baseline_search_24.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_sm.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/sm.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_textview.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/textview.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_firebase_storage.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_firebase_storage.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_orderitem.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/orderitem.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ordersback.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ordersback.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_old_orders.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_old_orders.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_authenticate.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_authenticate.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_orderitem2.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/orderitem2.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_back.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/back.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_yes.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ic_yes.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_letter_x.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/ic_letter_x.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_list2.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/list2.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_list1.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/list1.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_buttonback.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/buttonback.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_textview2.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable/textview2.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/menu_menu1.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/menu/menu1.xml"
+    }
+]

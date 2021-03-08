@@ -1,0 +1,16 @@
+com/example/chatfirebase/FCMinstanceIdservice.java
+ com.example.chatfirebase.FCMinstanceIdservice
+com/example/chatfirebase/BuildConfig.java
+ com.example.chatfirebase.BuildConfig
+com/example/chatfirebase/FCMMessagingService.java
+ com.example.chatfirebase.FCMMessagingService
+com/example/chatfirebase/MainActivity.java
+ com.example.chatfirebase.MainActivity
+com/example/chatfirebase/ChatActivity.java
+ com.example.chatfirebase.ChatActivity
+ com.example.chatfirebase.ChatActivity$1
+ com.example.chatfirebase.ChatActivity$2
+com/example/chatfirebase/Authenticate.java
+ com.example.chatfirebase.Authenticate
+ com.example.chatfirebase.Authenticate$1
+ com.example.chatfirebase.Authenticate$2
