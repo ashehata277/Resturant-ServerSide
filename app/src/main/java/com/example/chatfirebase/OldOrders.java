@@ -91,7 +91,7 @@ public class OldOrders extends AppCompatActivity
                                 (String) childChild.child("note").getValue(),
                                 (Long) childChild.child("number").getValue()));
                     }
-                    infoOrders.add(new OrderItem(childDataSnapshot.getKey(),
+                    infoOrders.add(0,new OrderItem(childDataSnapshot.getKey(),
                             (String) childDataSnapshot.child("OrderDate").getValue(),
                             (Long) childDataSnapshot.child("Total Price").getValue(),
                             (String) childDataSnapshot.child("phone").getValue(),

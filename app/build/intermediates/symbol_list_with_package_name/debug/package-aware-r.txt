@@ -2156,6 +2156,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2592,6 +2593,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string new_orders
 string old_orders
 string orders_accepted
 string password_toggle_content_description

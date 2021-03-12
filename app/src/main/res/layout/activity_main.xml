@@ -7,15 +7,31 @@
     tools:context=".MainActivity"
     android:background="@drawable/back">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/ordersback"
+        android:gravity="center"
+        android:text="@string/new_orders"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/OrderList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ListView
         android:id="@+id/OrderList"
         android:layout_width="310dp"
         android:layout_height="450dp"
-        android:layout_marginTop="90dp"
         app:layout_constraintBottom_toTopOf="@+id/refresh"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
 
     </ListView>
 
@@ -38,7 +54,7 @@
         android:layout_height="42dp"
         android:layout_marginStart="45dp"
         android:layout_marginEnd="46dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/ordersback"
         android:gravity="center"
         android:text="@string/old_orders"

@@ -16,12 +16,12 @@
         "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/datepicker.xml"
     },
     {
-        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
-        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_chat.xml"
-    },
-    {
         "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
+        "source": "/media/shehata/New Volume/ChatFireBase/app/src/main/res/layout/activity_chat.xml"
     },
     {
         "merged": "/media/shehata/New Volume/ChatFireBase/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",

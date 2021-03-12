@@ -11,5 +11,6 @@
     <string name="accepted">Accepted</string>
     <string name="change_date">Change date</string>
     <string name="title_activity_location">Map</string>
+    <string name="new_orders">New Orders</string>
 
 </resources>
